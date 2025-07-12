@@ -29,6 +29,7 @@ This project delivers an interactive Tableau dashboard built using the **Super S
 ---
 
 ## 🗺️ 1. Overview Dashboard
+![Dashboard Preview](dashboard_preview.png)
 
 ### 🔍 Filters Applied:
 - **KPI**
