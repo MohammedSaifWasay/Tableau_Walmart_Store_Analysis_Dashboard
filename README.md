@@ -1,105 +1,55 @@
-# 📦 Super Store Sales Analysis Dashboard
 
-This project delivers an interactive Tableau dashboard built using the **Super Store dataset**. It provides insights into key performance metrics (Sales, Profit, Quantity), order trends, and top-performing segments across states, categories, and time.
+# Super Store Analysis using Tableau
 
----
+An interactive Tableau dashboard that provides insights into various key performance indicators (KPIs) and allows users to filter the data based on different dimensions.
 
-## 🧾 Project Objectives
+## Project Overview:
 
-- Create three dynamic dashboards: **Overview**, **Performance**, and **Top 10 Analysis**
-- Provide decision-makers with:
-  - KPI comparisons year-over-year
-  - Visual patterns across time and customer segments
-  - Clear ranking of top contributors to revenue
+The project aims to provide a comprehensive analysis of sales data and performance metrics, allowing users to explore the data and gain insights by creating three main dashboards:
+- Overview Dashboard.
+- Performance Dashboard.
+- Top 10 Dashboard. 
 
----
+Each dashboard has specific requirements for visualizations, filters, and formatting.
 
-## 🧱 Dashboard Design Requirements
+## Project Details:
 
-### 🧩 General Design Guidelines
+- All sheets are filtered to display data only for the United States.
+- All dashboard contains dynamic titles and sentences: The title and dashboard sentences change based on on the selected measure and filters.
 
-- Dashboard Size: **Automatic**
-- Layout: Uses **containers** for structured formatting
-- Filter Panel: Global filter panel for user interactivity
-- Formatting:
-  - Clean formatting
-  - Grey borders around charts and tiles
-  - Clear separation between sections
+**Overview Dashboard:**
 
----
+The Overview Dashboard focuses on providing a high-level summary of sales data.
+It includes the following features:
 
-## 🗺️ 1. Overview Dashboard
+- Three filters: KPI, Year, and State. These filters affect all the visualizations in the dashboard.
+- Dynamic measure: Displays the selected measure (Sales, Profit, Quantity).
+- Change %: Shows the percentage change for the selected year compared to the previous year.
+- The three lower tiles are further filtered by segment (Consumer, Corporate, Home Office).
 
-### 🔍 Filters Applied:
-- **KPI**
-- **Year**
-- **State**
+**Performance Dashboard:**
 
-### 📊 Dashboard Tiles (for Consumer, Corporate, Home Office):
+The Performance Dashboard provides an in-depth analysis of sales performance metrics.
+It includes the following features:
 
-Each tile includes:
-- ✅ Dynamic title and measure
-- 📈 Line chart
-- 🔄 % Change compared to previous year
-- 📢 Sentence displaying growth/decline status
+- Six filters: KPI, Year, State, Segment, Category, and Sub-Category. These filters affect all the visualizations in the dashboard.
+- Chart #1: Dynamic monthly trend for several measures.
+- Chart #2: Order priority distribution by several measures.
+- Chart #3: Ship mode distribution by several measures.
 
-### 🧠 Notes:
-- All data filtered for **United States**
-- Each segment-specific tile is independently filtered
+**Top 10 Dashboard:**
 
----
+The Top 10 Dashboard focuses on identifying top-performing countries and states based on sales. It includes the following features:
 
-## 📈 2. Performance Dashboard
+- Four filters: Year, Segment, Category, and Sub-Category. These filters affect all the visualizations in the dashboard.
+- Chart #1: Top 10 countries by sales.
+- Chart #2: Top 10 states by sales, based on the selection from Chart #1.
 
-### 🔍 Filters Applied:
-- **KPI**
-- **Year**
-- **State**
-- **Segment**
-- **Category**
-- **Sub-Category**
 
-### 📊 Charts Included:
-1. **Monthly Trend Chart**:
-   - Dynamic by selected KPI & year
-   - Includes average line with label
-   - No gridlines
-2. **Order Priority Distribution**
-3. **Ship Mode Distribution**
+## Project Demo
 
-All charts:
-- Feature **dynamic bold titles**
-- Have **grey borders**
 
----
+https://github.com/Dina-Hosny/Super-Store-Analysis-using-Tableau/assets/46838441/581f3c50-0013-426c-bcc2-ca51e2528967
 
-## 🏆 3. Top 10 Analysis Dashboard
 
-### 🔍 Filters Applied:
-- **Year**
-- **Segment**
-- **Category**
-- **Sub-Category**
 
-### 📊 Charts Included:
-1. **Top 10 Countries by Sales**
-2. **Top 10 States by Sales** (filtered based on country selection)
-
-- All charts feature **grey borders** and **no gridlines**
-
----
-
-## 🛠️ Tools & Technologies
-
-- **Tableau** — Interactive data visualization
-- **Super Store dataset** — Provided by Tableau
-- **Calculated fields** — For % change, YOY growth, etc.
-- **Containers and layout controls** — For responsive design
-
----
-
-## 🧠 Author  
-**Mohammed Saif Wasay**  
-*Data Analytics Graduate — Northeastern University*  
-*Machine Learning Enthusiast | Passionate about turning data into insights*  
-🔗 [Connect with me on LinkedIn](https://www.linkedin.com/in/mohammed-saif-wasay-4b3b64199/)
