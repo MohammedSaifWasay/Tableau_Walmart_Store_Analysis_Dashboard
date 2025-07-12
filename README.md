@@ -29,7 +29,7 @@ This project delivers an interactive Tableau dashboard built using the **Super S
 ---
 
 ## 🗺️ 1. Overview Dashboard
-![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview](https://github.com/MohammedSaifWasay/Tableau_Walmart_Store_Analysis_Dashboard/blob/main/Demo.mp4)
 
 ### 🔍 Filters Applied:
 - **KPI**
